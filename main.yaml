@@ -21,3 +21,7 @@
       tags:
         - vim
         - all
+    - role: visual_studio
+      tags:
+        - vsc
+        - all

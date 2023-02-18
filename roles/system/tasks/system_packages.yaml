@@ -6,3 +6,4 @@
   loop:
     - tree
     - htop
+    - curl
