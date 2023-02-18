@@ -5,6 +5,10 @@
     - './vars/mac.yaml'
 
   roles:
+    - role: system
+      tags:
+        - system
+        - all
     - role: terraform
       tags:
         - terraform

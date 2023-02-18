@@ -1,0 +1,9 @@
+---
+- name: Copy zhrc file to home directory
+  ansible.builtin.copy:
+    src: .zshrc
+    dest: ~/.zshrc
+    mode: '0644'
+
+- name: reload zshrc
+  ansible.builtin.shell: source ~/.zshrc

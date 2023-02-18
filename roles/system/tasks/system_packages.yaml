@@ -1,0 +1,8 @@
+---
+- name: install listed packages
+  homebrew:
+    name: "{{item}}"
+    state: present
+  loop:
+    - tree
+    - htop
