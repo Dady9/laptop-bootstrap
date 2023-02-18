@@ -1,0 +1,4 @@
+# Install formula terraform
+- homebrew:
+    name: terraform
+    state: present

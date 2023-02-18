@@ -1,0 +1,19 @@
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  vars_files:
+    - './vars/mac.yaml'
+
+  roles:
+    - role: terraform
+      tags:
+        - terraform
+        - all
+    - role: git
+      tags:
+        - git
+        - all
+    - role: vim
+      tags:
+        - vim
+        - all
